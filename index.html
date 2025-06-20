@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Mario Glazer Temple</title>
+  </head>
+  <body class="">
+    <div id="home" class="bg-white text-black px-5 py-4">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <a href="#home"><img class="h-[48px] w-[96px] object-contain" src="mario-removebg-preview.png"></a>
+            <h1 class="text-lg font-bold">Mario Glaze Land</h1>
+            <ul class="flex gap-4 text-sm">
+                <li><a href="#gallery" class="hover:text-red-400">Gallery</a></li>
+                <li><a href="#reviews" class="hover:text-red-400">Reviews of Mario</a></li>
+                <li><a href="#msg" class="hover:text-red-400">Message the king</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="home" class="bg-cover bg-center h-40 md:h-[420px] flex items-center justify-center" style="background-image: url('https://www.apple.com/v/iphone/home/bn/images/meta/iphone__e4sjokz32aui_og.png');">
+        <div class="bg-black bg-opacity-60 p-6 text-white rounded-lg text-center">
+        <h2 class="text-3xl md:text-6xl font-bold">Welcome to Mario Glaze Center</h2>
+        <p class="text-sm mt-2">Pictures, reviews and more all of MARIO</p>
+        </div>
+    </div>
+
+    <div id="gallery" class="max-w-6xl mx-auto mt-12 px-4">
+    <h2 class="text-4xl font-bold text-center mb-8 text-black">Mario Wall</h2>
+        <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+            <div class="flex flex-col items-center"><img src="mario1.jpg" alt="" class="w-full h-56 object-cover rounded" /><span class="mt-2 text-sm text-gray-700">Mario in the wild</span></div>
+            <div class="flex flex-col items-center"><img src="mario2.webp" alt="" class="w-full h-56 object-cover rounded" /><span class="mt-2 text-sm text-gray-700">Mario dressed in white</span></div>
+            <div class="flex flex-col items-center"><img src="mario3.webp" alt="" class="w-full h-56 object-cover rounded" /><span class="mt-2 text-sm text-gray-700">Movie star</span></div>
+        </div>
+    <div id="reviews" class="mt-12">
+        <h2 class="text-2xl font-bold text-center mb-6 text-black">Reviews of Mario</h2>
+        <div class="max-w-2xl mx-auto space-y-4">
+          <div class="bg-white p-3 rounded border text-sm text-gray-800">Mario is awesome! — Luigi</div>
+          <div class="bg-white p-3 rounded border text-sm text-gray-800">Great plumber and friend. — Peach</div>
+          <div class="bg-white p-3 rounded border text-sm text-gray-800">Always helps out. — Toad</div>
+        </div>
+    </div>
+
+<div id="msg" class="mt-16 max-w-xl mx-auto px-4">
+  <h2 class="text-2xl font-semibold mb-2 text-center">Message to Mario</h2>
+  <p class="text-sm text-center mb-6 text-gray-600">You better hope he reads ur message (wait 2 - 5 bussiness days)</p>
+  </p>
+
+  <form class="space-y-4">
+    <input 
+      type="text" 
+      placeholder="Name" 
+      class="w-full p-2 bg-gray-100 rounded outline-none focus:ring-1 focus:ring-red-400 transition" 
+    />
+    <input 
+      type="email" 
+      placeholder="Email (optional)" 
+      class="w-full p-2 bg-gray-100 rounded outline-none focus:ring-1 focus:ring-red-400 transition" 
+    />
+    <textarea 
+      rows="4" 
+      placeholder="Your message to the mustached man..." 
+      class="w-full p-2 bg-gray-100 rounded outline-none focus:ring-1 focus:ring-red-400 transition resize-none"
+    ></textarea>
+    <button 
+      type="submit" 
+      class="bg-red-500 text-white py-2 px-4 rounded hover:bg-red-600 transition w-full text-lg font-semibold">
+      Lets a GOOOO
+    </button>
+  </form>
+</div>
+
+  </body>
+  <footer class="bg-white text-gray-700 border-t border-gray-200 py-6">
+    <div class="max-w-6xl mx-auto px-4 text-center text-sm flex flex-col md:flex-row items-center justify-center gap-2">
+      <span class="font-semibold">Mario Glaze Land - by Vejas</span> &copy; 2025
+      <a href="https://github.com/Las-Vejas" target="_blank" rel="noopener" class="ml-2 inline-flex items-center gap-1 text-gray-500 hover:text-black transition">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5"><path d="M12 2C6.477 2 2 6.484 2 12.021c0 4.428 2.865 8.184 6.839 9.504.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.342-3.369-1.342-.454-1.155-1.11-1.463-1.11-1.463-.908-.62.069-.608.069-.608 1.004.07 1.532 1.032 1.532 1.032.892 1.53 2.341 1.088 2.91.832.091-.647.35-1.088.636-1.339-2.221-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.987 1.029-2.687-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.025A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.295 2.748-1.025 2.748-1.025.546 1.378.202 2.397.1 2.65.64.7 1.028 1.594 1.028 2.687 0 3.847-2.337 4.695-4.566 4.944.359.309.678.919.678 1.853 0 1.337-.012 2.419-.012 2.749 0 .267.18.577.688.48C19.138 20.2 22 16.447 22 12.021 22 6.484 17.523 2 12 2z"/></svg>
+        <span>GitHub</span>
+      </a>
+    </div>
+  </footer>
+</html>
